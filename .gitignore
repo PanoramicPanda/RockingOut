@@ -48,3 +48,17 @@ build-iPhoneSimulator/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+
+tmp/
+
+#Intellij configs
+.idea
+*.lock
+#Cucumber output files
+results.json
+*.html
+
+.vscode/
+#Bundler stuff
+Gemfile.lock
+.bundle
